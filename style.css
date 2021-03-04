@@ -99,20 +99,19 @@ img{
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
-.testimonial-items .card{}
-.testimonial-items .card img {
-	width: 80px;
-	height: auto;
-	max-width: inherit;
+.testimonial-items .card{
 	position: relative;
-	top: -50px;
-	left: 10px;
 }
-.card-body {
-	position: relative;
-	top: -40px;
-	padding: 10px;
-    padding-bottom: 0;
+.testimonial-items .card img {
+	position: absolute;
+	top: -17%;
+	left: 5%;
+	width: 30%;
+	height: auto;
+}
+.testimonial-items .card-body {
+	margin-top: 35px;
+	padding-bottom: 20px;
 }
 
 /* contact-section */
